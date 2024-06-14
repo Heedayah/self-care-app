@@ -109,6 +109,10 @@ body {
     left: 170px; /* Adjust based on your design */
     color: white; /* Ensure text is visible */
     font-size: 16px; /* Adjust based on your design */
+    white-space: nowrap;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #main-w-temp{
@@ -157,6 +161,9 @@ body {
     margin-left: 20px;
     margin-top: -40px;
     text-align: left;
+    font-size: 20px;
+    color: #3F414E;
+    font-weight: bold;
 }
 
 .sad-icon{
@@ -170,7 +177,7 @@ body {
 
 .sub-text{
     color: #A1A4B2;
-    font-size: 12px;
+    font-size: 16px;
     margin: 5px;
 }
 
@@ -235,6 +242,10 @@ body {
     left: 170px; /* Adjust based on your design */
     color: white; /* Ensure text is visible */
     font-size: 16px; /* Adjust based on your design */
+    white-space: nowrap;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #home-w-temp{
@@ -261,6 +272,9 @@ body {
 #home-text-activity{
     text-align: left;
     margin-left: 20px;
+    font-size: 20px;
+    color: #3F414E;
+    font-weight: bold;
 }
 
 .progress-bar{
@@ -273,7 +287,7 @@ body {
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 8px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .home-activity-cards {
